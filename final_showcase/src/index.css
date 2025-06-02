@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-cyber-dark text-white m-0 min-h-screen font-sans antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-16;
+  }
+
+  .card {
+    @apply bg-gray-800/30 backdrop-blur-sm rounded-lg p-6 
+           border border-gray-700/50 transition-all duration-300
+           hover:shadow-lg hover:shadow-cyber-accent/5 hover:border-gray-600/50;
+  }
+} 
