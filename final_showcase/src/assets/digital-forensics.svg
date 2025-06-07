@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="400" cy="300" r="100" fill="none" stroke="#4a5568" stroke-width="4"/>
+  <line x1="480" y1="380" x2="550" y2="450" stroke="#4a5568" stroke-width="4"/>
+  
+  <!-- Evidence Items -->
+  <rect x="300" y="250" width="60" height="40" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+  <rect x="380" y="280" width="40" height="60" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+  <circle cx="450" cy="250" r="20" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+  
+  <!-- Analysis Lines -->
+  <line x1="300" y1="270" x2="380" y2="310" stroke="#48bb78" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="380" y1="310" x2="450" y2="250" stroke="#48bb78" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Timeline -->
+  <line x1="200" y1="500" x2="600" y2="500" stroke="#4a5568" stroke-width="2"/>
+  <circle cx="250" cy="500" r="5" fill="#48bb78"/>
+  <circle cx="350" cy="500" r="5" fill="#48bb78"/>
+  <circle cx="450" cy="500" r="5" fill="#48bb78"/>
+  <circle cx="550" cy="500" r="5" fill="#48bb78"/>
+  
+  <!-- Binary Background -->
+  <text x="100" y="100" fill="#4a5568" font-family="monospace" font-size="12">01010101</text>
+  <text x="700" y="500" fill="#4a5568" font-family="monospace" font-size="12">10101010</text>
+  <text x="150" y="550" fill="#4a5568" font-family="monospace" font-size="12">11001100</text>
+  <text x="650" y="150" fill="#4a5568" font-family="monospace" font-size="12">00110011</text>
+  
+  <!-- Analysis Pulse -->
+  <circle cx="400" cy="300" r="5" fill="#48bb78">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg> 

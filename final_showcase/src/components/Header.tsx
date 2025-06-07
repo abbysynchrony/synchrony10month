@@ -22,7 +22,7 @@ const Header = () => {
             href="#home" 
             className="text-2xl font-bold text-cyber-accent"
           >
-            CyberSec Portfolio
+            Cybersecurity Portfolio
           </a>
 
           {/* Desktop Navigation */}

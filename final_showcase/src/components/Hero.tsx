@@ -23,23 +23,15 @@ const Hero = () => {
             <span className="text-cyber-accent">Learning Journey</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua.
+            What I've learned in the last ten months with dae at the Synchrony Skills Academy.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
               href="#semester-1"
-              className="px-6 py-3 bg-cyber-accent text-cyber-dark font-semibold rounded-lg 
-                       hover:bg-cyber-accent/90 transition-colors"
-            >
-              Start Journey
-            </a>
-            <a
-              href="#"
               className="px-6 py-3 border-2 border-cyber-accent text-cyber-accent font-semibold 
                        rounded-lg hover:bg-cyber-accent hover:text-cyber-dark transition-colors"
             >
-              Learn More
+              Start Journey
             </a>
           </div>
         </div>

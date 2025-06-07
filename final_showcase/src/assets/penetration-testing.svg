@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  
+  <!-- Terminal Window (larger) -->
+  <rect x="120" y="80" width="560" height="440" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+  <rect x="120" y="80" width="560" height="40" fill="#4a5568"/>
+  <circle cx="150" cy="100" r="8" fill="#e53e3e"/>
+  <circle cx="190" cy="100" r="8" fill="#ecc94b"/>
+  <circle cx="230" cy="100" r="8" fill="#48bb78"/>
+  
+  <!-- Code Lines (smaller font, shifted right) -->
+  <text x="145" y="140" fill="#48bb78" font-family="monospace" font-size="18">$ nmap -sV 192.168.1.1</text>
+  <text x="145" y="170" fill="#ecc94b" font-family="monospace" font-size="18">Starting Nmap 7.92</text>
+  <text x="145" y="200" fill="#ecc94b" font-family="monospace" font-size="18">Scanning ports...</text>
+  <text x="145" y="230" fill="#48bb78" font-family="monospace" font-size="18">$ hydra -l admin -P pass.txt ssh://192.168.1.1</text>
+  
+  <!-- Cursor Blink (shifted) -->
+  <rect x="145" y="250" width="12" height="3" fill="#48bb78">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg> 
